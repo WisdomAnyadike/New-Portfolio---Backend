@@ -10,7 +10,7 @@ if( !Name || !Email || !Subject || !Message){
 }else{
     sendMessage(Name , Email)
     sendMessageToMe(Name , Email , Subject , Message )
-    res.status(200).send({message: 'Email Sent Succefully'})
+    res.status(200).send({message: 'Email Sent Succefully' , status:"okay"} )
 
 }
 
