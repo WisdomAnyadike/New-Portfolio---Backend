@@ -56,7 +56,7 @@ console.log("email sent successfully")
 
 
 
-const sendMessageToMe = async( Name , Email , Message , Subject) => {
+const sendMessageToMe = async( Name , Email ,Subject ,  Message ) => {
     const messageTemplate = ` <div>
   
     <ul>
